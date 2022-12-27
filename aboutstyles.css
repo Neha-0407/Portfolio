@@ -1,0 +1,31 @@
+#list{
+    color: green;
+    background: white;
+    font-size: 15px;
+}
+li{
+    list-style: none;
+}
+li::before{
+    content: "\00BB";
+}
+.abt{
+    float: left;
+    font-size: 19px;
+    line-height: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left {
+    width: 56%;
+  }
+  .right {
+    width: 40%;
+  }
+img[src*="jpg"]{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px rgb(194, 186, 186);
+  }
+
+
